@@ -1,23 +1,47 @@
-# WheelOfFortune
+# Wheel Of Fortune
 
-This is a Wheel of Fortune-style game implemented in C++ that allows users to spin the wheel, guess consonants, buy vowels, and solve the puzzle. The game comes with multiple categories like Movies, Food and Drinks, Phrases, and Song Lyrics, providing a rich variety of puzzles to play. Players start with $1000 and can earn money by guessing consonants or buy vowels. The game ends when the puzzle is solved or the player runs out of money.
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [How to Play](#how-to-play)
+- [Gameplay Flow](#gameplay-flow)
+- [Installation](#installation)
 
-##Features:
-Multiple categories for puzzles, including Movies, Food and Drinks, Phrases, and Song Lyrics.
-Interactive gameplay with options to spin the wheel, buy vowels, or solve the puzzle.
-Randomized prize allocation upon solving the puzzle.
-Dynamic handling of correct/incorrect guesses, money tracking, and game-over scenarios.
-Includes a hint mechanism to help the player select consonants or vowels.
+## Description
+This is a **Wheel Of Fortune-inspired game** built in C++. Players can spin the wheel, guess consonants, buy vowels, and attempt to solve a puzzle chosen from multiple categories. The game dynamically tracks the player's money and progress.
 
-##Game Flow:
-Spin the Wheel: Earn money based on the value from the spin.
-Guess a Consonant: Choose a consonant to guess in the puzzle.
-Buy a Vowel: Spend $700 to buy a vowel and reveal its occurrences.
-Solve the Puzzle: Attempt to solve the puzzle to win the game.
-Win Prizes: Successfully solving the puzzle grants a random prize.
+## Features
+- Multiple categories: **Movies**, **Food and Drinks**, **Phrases**, **Song Lyrics**.
+- Interactive gameplay: Spin the wheel, guess consonants, buy vowels, or solve the puzzle.
+- Randomized prizes for puzzle solving.
+- Input validation for player actions.
+- Game over conditions based on money or correct puzzle solving.
 
-##How to Play:
-Choose a category from Movies, Food & Drinks, Phrases, or Song Lyrics.
-Spin the wheel to guess consonants or buy vowels with your earnings.
-Try to solve the puzzle before running out of money.
-Win a random prize if you solve the puzzle correctly!
+## How to Play
+1. Choose a category from Movies, Food and Drinks, Phrases, or Song Lyrics.
+2. Spin the wheel to guess consonants or buy vowels with your earnings.
+3. Try to solve the puzzle before running out of money.
+4. Win a random prize if you solve the puzzle correctly!
+
+## Gameplay Flow
+1. **Spin the wheel**: Earn money for each correct consonant.
+2. **Guess a consonant**: Choose a consonant to reveal letters in the puzzle.
+3. **Buy a vowel**: Spend $700 to reveal a vowel in the puzzle.
+4. **Solve the puzzle**: Attempt to solve and win the game.
+
+## Installation
+
+To run the Wheel of Fortune game on your local machine, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/graceshawyan/WheelOfFortune.git
+
+# Go into the project directory
+cd WheelOfFortune
+
+# Compile the game (for example, using g++)
+g++ -o WheelOfFortune main.cpp
+
+# Run the game
+./WheelOfFortune
