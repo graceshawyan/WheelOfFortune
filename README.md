@@ -41,7 +41,7 @@ git clone https://github.com/graceshawyan/WheelOfFortune.git
 cd WheelOfFortune
 
 # Compile the game (for example, using g++)
-g++ -o WheelOfFortune main.cpp
+g++ -o WheelOfFortune WheelOfFortune.cpp
 
 # Run the game
 ./WheelOfFortune
